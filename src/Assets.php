@@ -2,15 +2,16 @@
 
 namespace Carrooi\Assets;
 
-use Nette\Object;
+use Nette\SmartObject;
 
 /**
  *
  * @author David Kudera
  */
-class Assets extends Object
+class Assets
 {
 
+    use SmartObject;
 
 	const REBUILD_REASON_MISSING_TARGET = 1;
 

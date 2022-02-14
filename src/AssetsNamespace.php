@@ -2,15 +2,16 @@
 
 namespace Carrooi\Assets;
 
-use Nette\Object;
+use Nette\SmartObject;
 
 /**
  *
  * @author David Kudera
  */
-class AssetsNamespace extends Object
+class AssetsNamespace
 {
 
+    use SmartObject;
 
 	/** @var \Carrooi\Assets\AssetsResource[] */
 	private $resources = [];

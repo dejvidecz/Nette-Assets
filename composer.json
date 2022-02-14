@@ -1,7 +1,7 @@
 {
-	"name": "carrooi/assets",
+	"name": "dejvidecz/assets",
 	"type": "library",
-	"description": "Modular assets system for Nette framework",
+	"description": "Fork of Modular assets system for Nette framework",
 	"keywords": ["carrooi", "assets", "nette", "css", "js", "javascript"],
 	"license": ["MIT"],
 	"authors": [

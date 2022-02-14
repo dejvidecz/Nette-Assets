@@ -6,15 +6,16 @@ use Carrooi\Assets\Compilers\BaseCompiler;
 use Carrooi\Helpers\FileSystemHelpers;
 use Nette\Caching\Cache;
 use Nette\Caching\IStorage;
-use Nette\Object;
+use Nette\SmartObject;
 
 /**
  *
  * @author David Kudera
  */
-class AssetsResource extends Object
+class AssetsResource
 {
 
+    use SmartObject;
 
 	const CACHE_NAMESPACE = 'carrooi.assets';
 
